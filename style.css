@@ -1,0 +1,101 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.container {
+    width: 100%;
+    height: 100vh;
+    background-color: whitesmoke;
+}
+.container .nav{
+    width: 100%;
+    height: 60px;
+    background-color:gray;
+    display: flex;
+
+}
+.container .nav .logo{
+    width: 15%;
+    height: 60px;
+}
+.container .nav .logo img{
+    height: 50px;
+    margin-top:5px;
+    margin-left: 50px;
+}
+.container .nav .links{
+    width: 50%;
+    height: 60px;
+}
+.container .nav .links ul{
+    display: flex;
+    list-style: none;
+    font-size: 18px;
+    font-weight:bold;
+    text-transform: uppercase;
+}
+.container .nav .links ul li a{
+    padding-left: 30px;
+    text-decoration:none;
+    color: black;
+}
+.container .nav .search{
+    width: 35%;
+    height: 60px;
+
+}
+.container .nav .search input{
+    height: 30px;
+    margin-top: 15px;
+    background-color: orange;
+    font-weight: bold;
+    border-radius:20px;
+}
+.container .nav .search button{
+    padding: 8px;
+    font-weight: bold;
+    background-color:orange;
+    color: black;
+    border-radius:20px;
+}
+.container-header{
+    width: 100%;
+    height: 90vh;
+    position: absolute;
+    margin-top: 0;
+    background-color: lightseagreen;
+    text-align: center;
+}
+.container-header .header{
+    width: 60%;
+    height: 50vh;
+    margin-left: 20%;
+    margin-top: 20vh;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight:bold;
+    font-size: 15px;
+}
+.container-header .header h1{
+    font-size: 50px;  
+}
+.container-header .header h1 span{
+    color:rgb(240, 21, 185);
+}
+.container-header .header button{
+    width: 120px;
+    height: 40px;
+    font-weight: bold;
+    background-color:orange;
+    color: black;
+    border-radius: 5px;
+}
+.footer{
+    width: 100%;
+    height: 80px;
+    color: orange;
+    text-align: center;
+    background-color:black;
+    position: absolute;
+    bottom: 0px;
+}
